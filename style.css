@@ -1,0 +1,122 @@
+@page {
+    }
+
+.btm {
+    display: block;
+    text-align: right
+    }
+.calibre {
+    display: table-row;
+    }
+.calibre1 {
+    display: table-cell;
+    text-align: inherit;
+    width: 100%
+    }
+.calibre2 {
+    display: block
+    }
+.calibre3 {
+    display: block;
+    font-size: 1em;
+    }
+.calibre4 {
+    display: none
+    }
+.calibre5 {
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    }
+.calibre6 {
+    display: block;
+    list-style-type: decimal;
+    }
+.calibre7 {
+    display: list-item;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    }
+.calibre8 {
+    border-right-style: solid;
+    border-right-width: 1px;
+    text-decoration: none
+    }
+.calibre9 {
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    }
+.calibre10 {
+    display: block;
+    page-break-after: always
+    }
+.calibre11 {
+    display: block;
+    text-align: justify
+    }
+.calibre12 {
+    width: auto
+    }
+.calibre13 {
+    white-space: nowrap
+    }
+.chapter {
+    display: list-item;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: disc;
+    }
+.creator {
+    display: block;
+    font-size: 1.41667em;
+    text-align: right
+    }
+.kindle {
+    display: block;
+    font-size: 1em;
+    width: 100%
+    }
+.kindle_inner {
+    display: inline-block;
+    text-align: left;
+    }
+.kindle_outer {
+    display: block;
+    text-align: center;
+    width: 100%;
+    }
+.kindle1 {
+    display: block;
+    font-size: 1em;
+    }
+.kindle2 {
+    display: block;
+    font-size: 1em;
+    text-align: center
+    }
+.middle {
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+    text-indent: 0;
+    width: 100%
+    }
+.sesame {
+    -webkit-text-emphasis-style: sesame;
+    text-emphasis-style: sesame
+    }
+.title {
+    display: block;
+    font-size: 1.83333em;
+    }
+.pcalibre:link {
+    background: transparent;
+    color: #00C
+    }
+.pcalibre1:visited {
+    background: transparent;
+    color: #609
+    }
+
