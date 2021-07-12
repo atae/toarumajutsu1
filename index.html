@@ -3519,8 +3519,10 @@ window.document.addEventListener('scroll', () => {
     window.localStorage.setItem('scroll', window.scrollY)
 })
 
-  let scrollY = window.localStorage.getItem('scroll') || 0
-  window.scrollTo(0, scrollY)
+window.addEventListener('load', () => {
+    let scrollY = window.localStorage.getItem('scroll') || 0
+    window.scrollTo(0, scrollY)
+})
 
 </script>
 </body></html>
