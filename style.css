@@ -1,6 +1,9 @@
 @page {
     }
-
+body {
+    color: hsl(210, 10%, 62%);
+    background: black;
+}
 .btm {
     display: block;
     text-align: right
