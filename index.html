@@ -3514,5 +3514,14 @@
 <p class="calibre11 pcalibre1 pcalibre"><br class="calibre2 pcalibre1 pcalibre" /></p>
 <p class="calibre11 pcalibre1 pcalibre">平成十九年一月十ニ日　入力・校正　にゃ？</p>
 </div>
+<script>
+window.document.addEventListener('scroll', () => {
+    window.localStorage.setItem('scroll', window.scrollY)
+})
 
+window.document.addEventListener('load', () => {
+    let scrollY = window.localStorage.getItem('scroll') || 0
+    window.scrollTo(0, scrollY)
+})
+</script>
 </body></html>
